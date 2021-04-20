@@ -94,7 +94,7 @@ li{
     color: #242f51;
     text-align: right;
 }
-.tryfree1{
+/*.tryfree1{
     font-size: 0.9em;
     padding: 10px;
     margin-right: 20px;
@@ -104,8 +104,28 @@ li{
 }
 .tryfree1:hover{
     background-color: #2102cf;
+}*/
+.tryfree1 {
+    align-items: center;
+    background-color: #fafafa;
+    box-shadow: 
+        8px 8px 32px #d8d8d8,
+        -5px -5px 32px #ffffff;
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 45px;
+    color: rgb(90, 90, 90);
+    justify-content: center;
+    margin-right: 4rem;
+    font-size: 0.9em;
 }
-.tryfree2{
+.tryfree1:hover{
+    box-shadow: 
+        inset 8px 8px 32px #d8d8d8,
+        -5px -5px 32px #ffffff;
+}
+/*.tryfree2{
     font-size: 0.8em;
     padding: 5px;
     background-color: #2500f9;
@@ -114,42 +134,26 @@ li{
 }
 .tryfree2:hover{
     background-color: #2102cf;
-}
-.sociallinks_top {
-    margin: 0;
-    padding: 0 30px;
-}
-.sociallist_top {
-    margin: 0;
-    padding: 0;
+}*/
+.tryfree2{
+    align-items: center;
+    background-color: #fafafa;
+    box-shadow: 
+        8px 8px 32px #d8d8d8,
+        -5px -5px 32px #ffffff;
+    border-radius: 50px;
     display: flex;
-    flex-direction: row;
-}
-.socialitem_top {
-    float: right;
-    padding: 0px 10px;
-    font-size: 20px;
-    color: #777777;
-}
-.socialmedia_text{
+    width: 150px;
+    height: 45px;
+    color: rgb(90, 90, 90);
+    justify-content: center;
+    margin-right: 4rem;
     font-size: 0.9em;
 }
-.socialitem:nth-child(3) {
-    border-left: 1px solid #AEAEAE;
-    padding: 0 10px;
-}
-.socialitem_top:hover {
-    display: block;
-    text-align: center;
-    padding: 0px 10p;
-    background-color: #147AD6;
-    border-radius: 5px;
-}
-.instaicon_top, .telegicon_top, .youticon_top {
-    color: #AEAEAE;
-}
-.instaicon_top:hover, .telegicon_top:hover, .youticon_top:hover {
-    color: #ffffff;
+.tryfree2:hover{
+    box-shadow: 
+        inset 8px 8px 32px #d8d8d8,
+        -5px -5px 32px #ffffff;
 }
 .mainnavtop{
     align-items: center;
@@ -681,6 +685,15 @@ li{
     background-color: #f5f7fa;
     display: block;
 }
+.App_installation_failed_panel p{
+    display: none;
+}
+.App_installation_failed_panel p::selection{
+    display: block;
+}
+.unselected{
+
+}
 
                     /*downloadapp*/
 .downloadapp_mainpanel{
@@ -776,98 +789,51 @@ li{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.AppLablogo_image{
+    display: block;
+    margin: 0 auto;
+}
 .mainnavfooter{
     align-items: center;
     justify-content: center;
     margin: 20px auto;
-}
-.socialmedia{
-    float: right;
-    text-align: center;
-    width: 33%;
-    padding: 0 20px;
-}
-.newsletter_social_panel{
-    margin: 0px;
-    padding: 0px;
-    height: 2.5em;
-    width: 25%;
-}
-.textarea_email{
-    width: 150px;
-    height: 30px;
-    float: right;
-    text-align: right;
-    padding: 5px;
-    border: 0px solid #AEAEAE;
-    border-radius: 0 3px 3px 0;
-    filter: drop-shadow(0 0 2px #aeaeae);
-    transform: translate(0px, 0px);
-    position: relative;
-}
-.textarea_email:hover{
-    border: 2.5px solid #178ff8;
-}
-.socialmedia_panel{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    padding-right: 0px;
-}
-.socialmedia_maintitle{
-    font-size: 0.7em;
-    display: inline;
-    width: 100px;
-}
-.sociallinks{
-    margin: 0;
-    padding: 0;
-}
-.sociallist{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    margin-right: 10px;
-}
-.socialitem{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 0 7px;
-    color: #777777;
-}
-.socialitem:hover{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    padding: 0px 5px;
-}
-.instaicon, .telegicon, .youticon{
-    color: #fff;
-}
-.instaicon:hover, .telegicon:hover, .youticon:hover{
-    color: #f96922;
-}
-.navfooter{
-    width: 100%;
-    height: 50px;
-}
-.navfootert_text_panel{
-    margin: 0 100px;
-    display: flex;
-    flex-direction: row;
-}
-.navfootert_text{
-    font-size: 0.7em;
-    padding: 0 4px;
+    margin-bottom: 0;
 }
 .footermenu{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     color: #fff;
+}
+.mainmenu_li_foot{
+    color: #fff;
+    padding: 0 15px;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+.mainmenu_li_foot:hover{
+    color: #fcae61;
+}
+.social_panel{
+    width: 200px;
+    margin: 0 auto;
+    padding-right: 0;
+}
+.sociallist_top{
+    margin-top: 10px;
+}
+.socialitem_top {
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.socialitem_top:hover {
+    display: block;
+    text-align: center;
+    padding: 0px 10px;
+}
+.instaicon_top, .telegicon_top, .youticon_top {
+    color: #616368;
+}
+.instaicon_top:hover, .telegicon_top:hover, .youticon_top:hover {
+    color: #ffffff;
 }
 .copyright_text{
     color: #333d52;
@@ -879,8 +845,4 @@ li{
 }
 .copyright_icon {
     color: #fff;
-}
-.AppLablogo_image{
-    display: block;
-    margin: 0 auto;
 }
