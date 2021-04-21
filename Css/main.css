@@ -96,18 +96,26 @@ li{
     color: #242f51;
     text-align: right;
 }
-/*.tryfree1{
+.tryfree1{
+    box-shadow: 6px 6px 24px 0 #9e9e9ead,
+    -6px -6px 24px 0 #e4e4e4;
     font-size: 0.9em;
-    padding: 10px;
-    margin-right: 20px;
-    background-color: #2500f9;
-    border-radius: 30px;
-    color: #fff;
+    align-items: center;
+    margin-right: 30px;
+    width: 150px;
+    height: 45px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.15em;
+    display: flex;
+    color: #ffffff;
+    background: linear-gradient(135deg, #1307c4, #0d00ca);
 }
 .tryfree1:hover{
-    background-color: #2102cf;
-}*/
-.tryfree1 {
+    box-shadow: inset 6px 4px 8px 0 #0d02ac,
+    inset -6px -6px 6px 0 #1000f1c4;
+}
+/*.tryfree1 {
     box-shadow: 6px 6px 24px 0 #64646456,
     -6px -6px 24px 0 #ffffff80;
     font-size: 0.9em;
@@ -122,28 +130,34 @@ li{
     color: #242f51;
     background: linear-gradient(135deg, #91919125, #ffffff4d);
 }
-.tryfree1_1 {
-    
-}
 .tryfree1:hover{
     box-shadow: inset 6px 4px 8px 0 #6b6b6b33,
     inset -6px -6px 6px 0 #e9e9e95d;
-}
-/*.tryfree2{
-    font-size: 0.8em;
-    padding: 5px;
-    background-color: #2500f9;
-    border-radius: 20px;
-    color: #fff;
+}*/
+.tryfree2{
+    box-shadow: 6px 6px 24px 0 #727272ad,
+    -6px -6px 24px 0 #cecece;
+    font-size: 0.9em;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.15em;
+    display: flex;
+    color: #ffffff;
+    margin-left: 30px;
+    background: linear-gradient(45deg, #1307c4, #0d00ca);
 }
 .tryfree2:hover{
-    background-color: #2102cf;
-}*/
+    box-shadow: inset 6px 4px 8px 0 #0d02ac,
+    inset -6px -6px 6px 0 #1000f1c4;
+}
 .bottons_try_watch{
     margin-top: 15px;
     margin-right: 0;
 }
-.tryfree2{
+/*.tryfree2{
     box-shadow: 6px 6px 24px 0 #3a3a3a59,
     -6px -6px 24px 0 #ffffff80;
     font-size: 0.9em;
@@ -161,7 +175,7 @@ li{
 .tryfree2:hover{
     box-shadow: inset 6px 4px 8px 0 #6b6b6b33,
     inset -6px -6px 6px 0 #e9e9e95d;
-}
+}*/
 .watch_film{
     color: #2500f9;
     font-size: 0.8em;
@@ -310,26 +324,6 @@ li{
     color: #40975f;
 }
 
-
-                    /*ourteam*/
-.show_name1{
-    content: ' ';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    color: #ffffff;
-    opacity: 0;
-    transition: all 1s ease-in-out;
-}
-.show_name1:hover{
-    opacity: 1;
-    color: #ffffff;
-    display: inline-block;
-    text-align: center;
-    padding-top: 50px;
-}
                     /*smart_jackpots*/
 .smart_jackpots_head_panel{
     width: 70%;
@@ -660,7 +654,7 @@ li{
 .headtitle_using_product{
     color: #242f51;
     width: 300px;
-    font-weight: 700;
+    font-weight: 750;
 }
 .headtext_using_product{
     color: #616368;
