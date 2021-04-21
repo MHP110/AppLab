@@ -1,5 +1,5 @@
 html {
-    font-family: IranYekan;
+    font-family: IRANSans, IRANYekan;
     overflow-x: hidden;
 }
 body {
@@ -660,7 +660,7 @@ li{
 .headtitle_using_product{
     color: #242f51;
     width: 300px;
-    font-weight: 750;
+    font-weight: 700;
 }
 .headtext_using_product{
     color: #616368;
